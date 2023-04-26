@@ -1,0 +1,186 @@
+.slick-prev{
+    top: 45% !important;
+    left: -20px !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover{
+        background: #c2c0c0 !important;
+    }
+
+
+}
+.slick-prev::before{
+    font-family:FontAwesome !important;
+    color: rgb(74, 61, 61) !important;
+   
+}
+
+.slick-next{
+    top: 45% !important;
+    right: -5px !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover{
+        background: #c2c0c0 !important;
+    }
+    
+}
+.slick-disabled{
+    display: none !important;
+}
+.slick-next::before{
+    font-family:FontAwesome !important;
+    color: rgb(74, 61, 61) !important;
+}
+
+.section_share{
+    &.section_spec{
+        background: #faf8f8;
+    }
+    &.section_outstanding{
+        background: #faf8f8;
+
+    }
+    &.section_about{
+        height: 500px !important;
+    }
+    .section-body{
+        .section-customzie{
+            .bg-img{
+                width: 278px;
+                height: 150px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+                
+                &.section_spec{
+                    //background-image: url(../../assets/speciatly/nhi.jpg);
+                    
+                }
+                &.section_medical{
+                    //background-image: url(../../assets/medical/vietduc.jpg);
+                    
+                    
+                }
+                &.section_OutStandingDoctor{
+                    //background-image: url(../../assets/Outstanding/anhdaidien.jpg);
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+                &.section_handbook{
+                    background: url(../../assets/handbook/handbook1.jpg);
+                }
+            }
+            .spec-name{
+                padding: 10px 0;
+                font-size: 14px;
+                &:hover{
+                    color: rgb(40, 158, 236);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.section_share{
+    height: 330px;
+    
+    .section-container{
+        margin: 0 150px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header{
+            height: 60px;
+            margin-bottom: 30px;
+            padding-top: 30px;
+
+            .title-section{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .btn-section{
+                float: right;
+                padding: 5px 10px;
+                border: none;
+                outline: none;
+                font-weight: 400;
+                background: #ebebeb;
+                color: black;
+                cursor: pointer;
+
+                &:hover{
+                    color: white;
+                    background-color: #f89d0a;
+                }
+            }
+
+        }
+
+    }
+
+
+}
+.section_outstanding{
+    .outder{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .section-customzie{
+        padding: 5px;
+        cursor: pointer;
+
+        .customzie-body{
+            padding: 20px;
+            border: 1px solid #5d5b5b;
+            border-radius: 5px;
+        }
+    }
+}
+.section_homefooter{
+    text-align: center;
+    padding-top: 10px;
+     a{
+        text-decoration: none;
+     }
+    }
+
+
+    .section_about{
+        margin: 0 150px;
+
+        .section_content_about{
+            display: flex;
+            gap: 15px;
+            width: 100%;
+
+            .section_about_left{
+                width: 60%;
+            }
+            .section_content_right{
+                width: 40%;
+
+                p{
+                    text-align: justify;
+                    font-style: italic;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+    
+    .section_about_header{
+       padding: 20px 10px;
+       font-size: 22px;
+       font-weight: 500;
+    }

@@ -1,0 +1,80 @@
+#customers{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #006666;
+    color: white;
+  }
+  .btn-edit{
+    width: 70px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(8, 28, 3);
+
+    &:hover{
+      background-color: transparent !important;
+      color: rgb(8, 28, 3) !important;
+    }
+  }
+  .btn-delete{
+    width: 70px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(249, 22, 22);
+
+    &:hover{
+      background-color: transparent !important;
+      color: rgb(249, 22, 22) !important;
+    }
+  }
+  .modal_users_container{
+    .modal-content{
+      .modal-header{
+        button{
+          background-color: transparent;
+          border: none;
+          color: white;
+          font-size: 20px;
+        }
+      }
+    }
+    .modal_body{
+      display: flex;
+      gap:10px;
+      flex-wrap: wrap;
+      .input_container{
+        display: flex;
+        flex-direction: column;
+        width: 49%;
+
+        &.max-width-input{
+          width: 100%;
+        }
+  
+        input{
+          border-radius: 3px;
+          height: 30px;
+          outline: none;
+          padding: 10px;
+        }
+      }
+
+    }
+  }
+  
